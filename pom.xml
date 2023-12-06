@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.bidv</groupId>
-    <artifactId>vinhnt-library</artifactId>
+    <groupId>org.vy</groupId>
+    <artifactId>lib</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
@@ -56,7 +56,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>${project.build.finalName}.lib/</classpathPrefix>
-                            <mainClass>org.bidv.lib.BidvLibrary</mainClass>
+                            <mainClass>org.vy.lib.Library</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

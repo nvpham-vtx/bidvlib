@@ -1,6 +1,6 @@
-package org.bidv.lib.statement;
+package org.vy.lib.statement;
 
-import org.bidv.lib.db.ClickHouseDbConnector;
+import org.vy.lib.db.ClickHouseDbConnector;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

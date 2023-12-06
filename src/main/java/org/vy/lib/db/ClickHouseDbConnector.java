@@ -1,4 +1,4 @@
-package org.bidv.lib.db;
+package org.vy.lib.db;
 import java.sql.*;
 public class ClickHouseDbConnector {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/travel";

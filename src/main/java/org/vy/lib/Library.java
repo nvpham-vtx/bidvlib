@@ -1,6 +1,7 @@
-package org.bidv.lib;
-import org.bidv.lib.statement.ClickHouseStatement;
-public class BidvLibrary {
+package org.vy.lib;
+import org.vy.lib.statement.ClickHouseStatement;
+
+public class Library {
     public static void main(String[] args) {
 
         try {
